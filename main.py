@@ -240,7 +240,7 @@ new_points = 500
 previous_points = 100
 total_points = (new_points + previous_points)
  print("You have earned {}, points! In total, you have accumulated ")                                                     
-
+print("hi")
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
 # "You have earned (new_points) points! In total, you have accumulated (total_points) points"
