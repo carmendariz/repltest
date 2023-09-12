@@ -228,7 +228,7 @@ print(num1 + num2)
 associate_name = "Jesse Pinkman"
 # associate_number = 399058
 associate_number = 399058
-print("dear {}, your associate number is: {} ".format(associate_name,associate_number"))
+
 # Dear (associate_name), your associate number is: (associate_number)
 
 # Strings Formatting Practice #2
@@ -239,8 +239,7 @@ print("dear {}, your associate number is: {} ".format(associate_name,associate_n
 new_points = 500
 previous_points = 100
 total_points = (new_points + previous_points)
- print("You have earned {}, points! In total, you have accumulated ")                                                     
-print("hi")
+
 # Strings Formatting Practice #3
 # Tell the user the amount of points earned within the following phrase:
 # "You have earned (new_points) points! In total, you have accumulated (total_points) points"
@@ -251,6 +250,7 @@ print("hi")
 # new_points = 350
 
 #################################Mathematical operations####################
+import math
 # slides 20 -24
 # #addition
 # #multiplication
@@ -272,28 +272,67 @@ print("hi")
 
 # ### Addition
 # 1. Add the numbers 145 and 256.
+a = 145
+b = 256
+result = a + b
+print(result)
 # 2. What is the sum of 873 and 1,287?
-
+aa = 873
+bb = 1287
+result2 = aa + bb
+print(result2)
 # ### Multiplication
 # 3. Multiply 13 by 24.
+aaa = 13
+bbb = 24
+result3 = aaa * bbb
+print(result3)
 # 4. What is the product of 17 and 19?
-
+c = 17
+d = 19
+result4 = c * d
+print(result4)
 # ### Division
 # 5. Divide 528 by 6.
+e = 528
+f = 6
+result5 = 528/6
+print(result5)
 # 6. What is the result when 1,234 is divided by 4?
-
+g = 1234
+h = 4
+result6 = 1234/4
+print(result6)
 # ### Modulo
 # 7. What is the remainder when 200 is divided by 7?
 # 8. If \( x = 145 \) modulo 12, find the value of \( x \).
+i = 200
+j = 7
+result7 = 200%7
+print(result7)
+x = 145
+result8 = x/12
+print(x/12)
 
 # ### Powers
 # 9. Calculate \( 7^3 \).
-# 10. Find the value of \( 5^4 \).
+k = 7
+l = 3
+print(7^3)
 
+# 10. Find the value of \( 5^4 \).
+m = 5
+n = 4
+print(5^4)
 # ### Get the max and min of a number
 # 11. Which is greater: 345 or 453?
+o = 345
+p = 453
 # 12. Out of 1,002 and 1,020, which is the lesser number?
-
+q = 1002
+r = 1020
+print(max(o, p))
+print(min(q , r))
 # ### Round a number
 # 13. Round 17.56 to the nearest whole number.
 # 14. Round 123.789 to the nearest tenth.
